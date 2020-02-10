@@ -18,7 +18,7 @@
 int main(void)
 {
 	char Received=0x00;
-SPI_Init_(Interrupt_Enable,SPI_Enable,LSB,Master,Leading_Edge_Rising,Leading_Edge_Sample,Frequency_16);
+SPI_Init_(Interrupt_Enable,SPI_Enable,LSB,Slave,Leading_Edge_Rising,Leading_Edge_Sample,Frequency_16);
 
 	while(1)
 	{	
